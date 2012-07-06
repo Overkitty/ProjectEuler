@@ -5,7 +5,7 @@ namespace Problem1
 {
     class Program
     {
-        private const int Max = 100000000;
+        private const int Max = 1000000000;
 
         private long _total;
 
@@ -13,7 +13,7 @@ namespace Problem1
         {
             Stopwatch stopWatch = Stopwatch.StartNew();
             var program = new Program();
-            program.DoProblem();
+            // program.DoProblem();
             stopWatch.Stop();
 
             Console.WriteLine(string.Format("DoProblem: {0} ms", stopWatch.ElapsedMilliseconds));
