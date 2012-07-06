@@ -34,6 +34,7 @@ namespace Problem4
             Console.ReadLine();
         }
 
+        // Works but slow
         private void DoProblem()
         {
             _largePali = 0;
@@ -73,6 +74,7 @@ namespace Problem4
             Console.WriteLine(string.Format("Large 2: {0}", _large2));
         }
 
+        // Does not work
         private void DoProblem2()
         {
             _largePali = 0;
